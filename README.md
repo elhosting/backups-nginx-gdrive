@@ -1,10 +1,10 @@
 # backups-nginx-gdrive
 
-EL script adjunto se aloja en la carpeta `/usr/local/bin` del home del usuario `root`
+Los scripts adjuntos se alojan en la carpeta `/usr/local/bin`.
 
-Los backups se alojan en la carpeta ```/backups``` del mismo home. Esta carpeta se sincroniza con Google Drive mediante `gclone`.
+Los archivos de backup se alojan en la carpeta ```/root/backups```, la cual se sincroniza con Google Drive mediante `gclone`.
 
-## crontab
+## Crontab
 
 ```
 # m h  dom mon dow   command
